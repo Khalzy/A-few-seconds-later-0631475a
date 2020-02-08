@@ -2,7 +2,6 @@
 
 
 
-// echo $input;
 
 foreach ($argv as $arg) {
 }
@@ -16,17 +15,3 @@ if (strpos($arg, "s") === false) {
     echo (int) $arg . " Seconds";
 }
 
-// if ($pos > false) {
-//     echo "geen tijd gevonden";
-// } else {
-//     echo (int) $u . " seconden";
-// }
-
-// $pos = strpos($argv[1], "s");
-
-
-// if ($pos === false) {
-//     echo  "geen tijd gevonden";
-// } else {
-//     echo (int) $argv[1] . " seconden";
-// }
