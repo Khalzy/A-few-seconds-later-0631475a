@@ -10,8 +10,7 @@ $pos = strpos($arg, "s");
 
 
 if (strpos($arg, "s") === false) {
-    echo "no Time found";
+    echo "geen tijd gevonden";
 } else {
     echo (int) $arg . " Seconds";
 }
-
